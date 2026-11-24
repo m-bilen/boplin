@@ -6,7 +6,7 @@ Hold Alt, select a word in the subtitles, and Cueword explains what it means *in
 
 ## What it does
 
-- **Catch:** Select any word or line in the subtitles on YouTube, Netflix, Prime Video or any site with text subtitles. The video pauses while you select (you can turn this off).
+- **Catch:** Select any word or line in the subtitles on YouTube, Netflix, Prime Video, HBO or any site with text subtitles. The video pauses while you select (you can turn this off).
 - **Understand:** Gemini explains the selection in the context of the scene. Idioms and slang are recognised: in *"I believe he's gonna lick this thing"*, "lick" means *to beat*, not *to lick*.
 - **Save:** Words are grouped by show or movie, together with the subtitle line and the moment in the video where you found them.
 - **Review:** A multiple-choice quiz shows the original subtitle line and asks what the word means there. Scheduling is based on the SM-2 spaced repetition algorithm, with a daily goal of 20 reviews so the count never piles up.

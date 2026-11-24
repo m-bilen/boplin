@@ -9,7 +9,7 @@ chrome.storage.onChanged.addListener((changes) => {
     pauseOnSelect = changes.pauseOnSelect.newValue;
   }
 });
-const SUBTITLE_CONTAINERS = '.jw-captions, .vjs-text-track-display, .vjs-text-track-cue, [class*= "subtitle"], .player-timedtext, .caption-window';
+const SUBTITLE_CONTAINERS = '.jw-captions, .vjs-text-track-display, .vjs-text-track-cue, [class*= "subtitle"], .player-timedtext, .caption-window, [class*="CaptionWindow"]';
 const TEXT_BLOCKS = 'p, li, td, blockquote, h1, h2, h3, h4, h5, h6';
 
 
@@ -25,7 +25,7 @@ function enableSelectMode(){
   if (isAltHeld) return;
   isAltHeld = true;
   dynamicStyle.innerHTML = ` /* Force the subtitle layer on top and make it selectable */
-            .jw-captions, .jw-wrapper, .vjs-text-track-display, .vjs-text-track-cue, [class*="caption"], [class*="subtitle"], [class*="player-timedtext"], .player-timedtext * {
+                        .jw-captions, .jw-wrapper, .vjs-text-track-display, .vjs-text-track-cue, [class*="caption"], [class*="subtitle"], [class*="player-timedtext"], .player-timedtext *, [class*="CaptionWindow"], [class*="CaptionWindow"] * {
                 pointer-events: auto !important;
                 user-select: text !important;
                 -webkit-user-select: text !important;
