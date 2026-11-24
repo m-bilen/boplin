@@ -1,21 +1,21 @@
-# Cueword Gizlilik Politikası
+# Boplin Gizlilik Politikası
 
 Son güncelleme: Ekim 2026
 
 [English version](PRIVACY.md)
 
-Cueword, altyazıda seçtiğin kelimeleri açıklayan ve onları tekrar etmene yardım eden bir Chrome eklentisi. Bu sayfa, eklentinin hangi verileri nasıl kullandığını tam olarak anlatıyor. Cueword açık kaynak, yani buradaki her iddiayı kodda kendin kontrol edebilirsin: https://github.com/m-bilen/cueword
+Boplin, altyazıda seçtiğin kelimeleri açıklayan ve onları tekrar etmene yardım eden bir Chrome eklentisi. Bu sayfa, eklentinin hangi verileri nasıl kullandığını tam olarak anlatıyor. Boplin açık kaynak, yani buradaki her iddiayı kodda kendin kontrol edebilirsin: https://github.com/m-bilen/boplin
 
 ## Kısaca
 
 - Kelimelerin, açıklamaları ve ayarların senin tarayıcında kalır.
 - Tarayıcından çıkan tek şey seçtiğin metin ve etrafındaki altyazı cümlesidir. Bunlar da senin kendi API key'inle Google Gemini'ye gönderilir.
 - Geliştirici hiçbir verine erişmez. Sunucu yok, hesap yok, analitik yok, takip yok.
-- Cueword verilerini satmaz ve aşağıda anlatıldığı gibi Google'ın Gemini API'si dışında kimseyle paylaşmaz.
+- Boplin verilerini satmaz ve aşağıda anlatıldığı gibi Google'ın Gemini API'si dışında kimseyle paylaşmaz.
 
-## Cueword neleri saklar
+## Boplin neleri saklar
 
-Cueword'ün kaydettiği her şey senin tarayıcında, Chrome'un eklentilere ayırdığı yerel depolama alanında durur:
+Boplin'in kaydettiği her şey senin tarayıcında, Chrome'un eklentilere ayırdığı yerel depolama alanında durur:
 
 - seçtiğin kelimeler, replikler ve açıklamaları
 - geçtikleri altyazı cümlesi
@@ -26,17 +26,17 @@ Cueword'ün kaydettiği her şey senin tarayıcında, Chrome'un eklentilere ayı
 
 API key'in, diğer ayarların gibi bu yerel depolamada düz metin olarak saklanır. Başka siteler ve başka eklentiler onu okuyamaz, ama bilgisayarındaki Chrome profiline erişimi olan biri okuyabilir. Key yalnızca her istekle birlikte Google'ın Gemini API'sine gönderilir.
 
-## Cueword neyi, kime gönderir
+## Boplin neyi, kime gönderir
 
-Bir kelime seçtiğinde Cueword, seçtiğin metni ve etrafındaki altyazı cümlesini şifreli (HTTPS) bir bağlantı üzerinden, senin kendi API key'inle Google Gemini API'sine gönderir. İstekte ayrıca açıklamanın hangi dilde yazılacağı belirtilir. Başka hiçbir şey gönderilmez: sayfa adresi, video zamanı ya da diğer kelimelerin gitmez.
+Bir kelime seçtiğinde Boplin, seçtiğin metni ve etrafındaki altyazı cümlesini şifreli (HTTPS) bir bağlantı üzerinden, senin kendi API key'inle Google Gemini API'sine gönderir. İstekte ayrıca açıklamanın hangi dilde yazılacağı belirtilir. Başka hiçbir şey gönderilmez: sayfa adresi, video zamanı ya da diğer kelimelerin gitmez.
 
-Google bu isteği kendi şartlarına göre işler: [Gemini API Ek Hizmet Şartları](https://ai.google.dev/gemini-api/terms) ve [Google Gizlilik Politikası](https://policies.google.com/privacy). Ücretsiz bir API key kullanıyorsan, Google'ın şartları gönderdiğin içeriği ürünlerini geliştirmek için kullanmasına izin verir ve bu içeriği insan değerlendiriciler okuyabilir. Ücretli bir key'de Google içeriğini bu şekilde kullanmadığını belirtir. Cueword yalnızca senin seçtiğin metni gönderir, yine de kişisel ya da hassas metinleri seçmekten kaçın.
+Google bu isteği kendi şartlarına göre işler: [Gemini API Ek Hizmet Şartları](https://ai.google.dev/gemini-api/terms) ve [Google Gizlilik Politikası](https://policies.google.com/privacy). Ücretsiz bir API key kullanıyorsan, Google'ın şartları gönderdiğin içeriği ürünlerini geliştirmek için kullanmasına izin verir ve bu içeriği insan değerlendiriciler okuyabilir. Ücretli bir key'de Google içeriğini bu şekilde kullanmadığını belirtir. Boplin yalnızca senin seçtiğin metni gönderir, yine de kişisel ya da hassas metinleri seçmekten kaçın.
 
 Verilerin yalnızca seçimlerini açıklamak ve onları tekrar etmeni sağlamak için kullanılır. Reklam ya da başka herhangi bir amaçla kullanılmaz.
 
-## Cueword sayfaları nasıl okur
+## Boplin sayfaları nasıl okur
 
-Altyazılar birçok farklı yayın sitesinde göründüğü için Cueword ziyaret ettiğin her sayfada çalışır. Bu sayfalarda yalnızca Alt tuşuna basılı tutup tutmadığına bakar, yazdıklarını kaydetmez. Metni yalnızca Alt'a basılı tutup bir şey seçtiğinde okur. O zaman da sadece seçimi ve etrafındaki altyazı satırını ya da paragrafı okur. Arka planda sayfa okumaz, toplamaz, göndermez.
+Altyazılar birçok farklı yayın sitesinde göründüğü için Boplin ziyaret ettiğin her sayfada çalışır. Bu sayfalarda yalnızca Alt tuşuna basılı tutup tutmadığına bakar, yazdıklarını kaydetmez. Metni yalnızca Alt'a basılı tutup bir şey seçtiğinde okur. O zaman da sadece seçimi ve etrafındaki altyazı satırını ya da paragrafı okur. Arka planda sayfa okumaz, toplamaz, göndermez.
 
 ## İzinler
 
@@ -51,7 +51,7 @@ Kelimelerini ve başlıklarını istediğin zaman panelden silebilirsin. Eklenti
 
 ## Yaş
 
-Google'ın Gemini API'sini yalnızca 18 yaşında ya da daha büyük olanlar kullanabilir. Cueword 18 yaşından küçükler için tasarlanmamıştır.
+Google'ın Gemini API'sini yalnızca 18 yaşında ya da daha büyük olanlar kullanabilir. Boplin 18 yaşından küçükler için tasarlanmamıştır.
 
 ## Değişiklikler
 

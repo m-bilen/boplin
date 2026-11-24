@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "Cueword: Learn Languages from Subtitles" },
+  "extName": { "message": "Boplin: Learn Languages from Subtitles" },
   "extDescription": { "message": "Select a word or line in subtitles on any streaming site and get its meaning in the context of the scene. Saved by show." },
   "openPanel": { "message": "Open analysis panel" },
 
@@ -61,7 +61,7 @@
     }
   },
 "onboardingTitle": { "message": "Before you start" },
-"onboardingIntro": { "message": "Cueword explains words by asking Gemini. That needs a free API key. It takes a minute." },
+"onboardingIntro": { "message": "Boplin explains words by asking Gemini. That needs a free API key. It takes a minute." },
 "onboardingStep1": { "message": "Create your key in Google AI Studio." },
 "onboardingStep1Link": { "message": "Google AI Studio →" },
 "onboardingStep2": { "message": "Copy it and paste it in the settings." },
